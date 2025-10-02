@@ -1,0 +1,303 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+a {
+  text-decoration: none;
+}
+.buynow::before {
+  content:"Buy Now"
+}
+.view::before{
+  content:"View Details";
+}
+
+/* STYLE FOR PRODUCT PAGE 2 */
+.carlogo {
+  height: 35px;
+  width: 35px;
+}
+.navbar {
+  height: 50px;
+  width: 100%;
+  background-color: #eaca24;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.navitems {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.circle {
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navitems a {
+  font-size: 0.7rem;
+  font-weight: lighter;
+  color: black;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.menuitem {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.content1 {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(#e4a802, #ddbf2b);
+}
+.heading {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 8px;
+}
+.purebuttons {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.justbuttons {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.head1 {
+  font-size: 4rem;
+  color: black;
+  font-weight: lighter;
+}
+.buynow {
+  background-color: rgba(255, 255, 255, 0.146);
+  border: 1px solid black;
+  border-radius: 25px;
+  color: black;
+  height: 50px;
+  width: 125px;
+}
+.view {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 25px;
+  color: black;
+  height: 50px;
+  width: 125px;
+}
+
+.statements {
+  width: 100%;
+  height: 55px;
+  background-color: #ddbf2b;
+  color: black;
+  font-size: 1.65rem;
+  font-weight: lighter;
+  display: flex;
+}
+.content2 {
+  width: 100%;
+  height: 335px;
+  background-color: #ddbf2b;
+  display: flex;
+}
+.carinfo {
+  width: 40%;
+  height: 300px;
+  background-color: #ddbf2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.car {
+  width: 60%;
+  height: 300px;
+  background-color: #ddbf2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardetails {
+  height: 330px;
+  width: 85%;
+  margin-left: 40px;
+}
+.yellowcar {
+  width: 120%;
+  margin-left: 50%;
+}
+.vectorparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vector {
+  height: 85px;
+  width: 80%;
+  border-radius: 50%;
+  border: 2px solid black;
+  border-top: none;
+  position: relative;
+  bottom: 70px;
+  right: 50px;
+  z-index: 1;
+  transform: rotate(-3deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circularbutton1 {
+  height: 40px;
+  width: 40px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 42px;
+  left: 120px;
+}
+.circularbutton2 {
+  height: 40px;
+  width: 40px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 41px;
+  left: 130px;
+}
+.endline {
+  width: 100%;
+  height: 50px;
+  background: #ddbf2b;
+}
+.footer {
+  width: 100%;
+  background-color: #eaca24;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.731);
+  font-weight: lighter;
+  border-top: 1px solid rgba(0, 0, 0, 0.562);
+  letter-spacing: 1.5px;
+}
+
+/* media query for  page 2 */
+
+@media (max-width: 600px) {
+  .menuitem {
+    display: none;
+  }
+  .carlogo {
+    position: relative;
+    right: 150px;
+  }
+  .circle {
+    position: relative;
+    left: 140px;
+  }
+  .content1 {
+    flex-direction: column;
+  }
+  .head1 {
+    font-size: 2.5rem;
+  }
+  .heading {
+    width: 100%;
+    margin-left: 70px;
+  }
+  .purebuttons {
+    position: relative;
+    right: 80px;
+    bottom: 30px;
+  }
+  .statements {
+    flex-direction: column;
+    font-size: 1.2rem;
+    height: 125px;
+  }
+  .statements pre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+  .content2 {
+    flex-direction: column;
+  }
+  .cardetails {
+    height: 297px;
+    width: 180%;
+    margin-left: 354px;
+    margin-top: 20px;
+  }
+  .divcar {
+    margin-bottom: 90px;
+  }
+  body {
+    background-color: #ddbf2b;
+  }
+  .footer {
+    position: absolute;
+    bottom: -370px;
+    font-size: 0.6rem;
+  }
+  .yellowcar {
+    width: 150%;
+    margin-right: -40px;
+  }
+  .vector {
+    height: 83px;
+    width: 90%;
+    border-radius: 50%;
+    border: 2px solid black;
+    border-top: none;
+    position: relative;
+    bottom: 100px;
+    right: 5px;
+    z-index: 1;
+    transform: rotate(-3deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buynow::before{
+    content:"Contact Us";
+  }
+  .buynow::before{
+    content:"Contact Us";
+  }
+}
+@media (max-width:600px){
+  .view::before{
+    content:"References";
+  }
+}

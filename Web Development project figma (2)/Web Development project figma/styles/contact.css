@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.completebody {
+  width: 100%;
+  height: 739px;
+  background-color: black;
+}
+.heroparent {
+  width: 100%;
+  height: 739px;
+  display: flex;
+  justify-content: end;
+}
+.herobackground {
+  width: 90%;
+  height: 736px;
+  background-image: url("../images/clusterbackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.carlogo {
+  height: 124px;
+  width: 100%;
+  position: relative;
+  left: -15px;
+}
+h1 {
+  color: white;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swipeplate {
+  height: 50px;
+  width: 30%;
+  border: 2px solid white;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrowcircle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin: 0px 0px 0px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+}
+p {
+  color: white;
+  font-size: 1.5rem;
+}
+.navbar2 {
+  width: 65%;
+  height: 50px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.button1 {
+  height: 55px;
+  width: 14%;
+  border: 2px solid white;
+  background-color: #27204f;
+  border-radius: 25px;
+  color: white;
+  margin-left: 45px;
+}
+.button2 {
+  height: 55px;
+  width: 14%;
+  border: 2px solid white;
+  background-color: #7365fa;
+  border-radius: 25px;
+  color: white;
+  margin-left: 8px;
+}
+.navbar3 {
+  width: 35%;
+  height: 65px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  position: relative;
+  bottom: 18px;
+}
+.navbarcontainer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button3 {
+  height: 45px;
+  width: 40%;
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+}
+.button4 {
+  height: 45px;
+  width: 40%;
+  border: 2px solid white;
+  background-color: #7365fa;
+  border-radius: 25px;
+  color: white;
+}
+.boxcontainer {
+  height: 550px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  height: 550px;
+  width: 33.33%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box2 {
+  height: 550px;
+  width: 33.33%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box3 {
+  height: 550px;
+  width: 33.33%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.glass1 {
+  height: 500px;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bluebox {
+  height: 450px;
+  width: 80%;
+  background-color: #0040e284;
+  border-radius: 10px;
+  opacity: 100%;
+}
+.known {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: white;
+}
+.top {
+  text-decoration: underline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 2px;
+}
+.contactdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactcluster {
+  width: 90%;
+}
+.glass2 {
+  height: 500px;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bluebox2 {
+  height: 450px;
+  width: 80%;
+  background-color:transparent;
+  border-radius: 10px;
+  opacity: 100%;
+}
+
+.parentcontacttable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.contacttable {
+  height: 50px;
+  width: 80%;
+  background-color: #0040e284;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.next{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    text-decoration: underline;
+
+}
+.parentcontainer2{
+    height: 300px;
+    align-items: center;
+}
+h4{
+    color: white;
+    letter-spacing: 1px;
+    margin-left: 7px;
+    margin-top: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input::placeholder { color:white; font-size: 10px; font-style: italic;; }
+.name{
+    width: 100%;
+    height: 30px;
+    background-color: #0040e284;
+    border-radius: 10px;
+    color: white;
+}
+.email{
+    width: 100%;
+    height: 30px;
+    background-color: #0040e284;
+    border-radius: 10px;
+    color: white;
+}
+.phone{
+    width: 100%;
+    height: 30px;
+    background-color: #0040e284;
+    border-radius: 10px;
+    color: white;
+}
+.message{
+    width: 100%;
+    height: 120px;
+    background-color: #0040e284;
+    border-radius: 10px;
+    color: white;
+}
+.sendbutton{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color:#27204f ;
+    font-size: 8px;
+    color: white;
+    text-decoration: none;
+}
+.parentsend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.right1{
+  width: 70%;
+}
+.right2{
+  width: 70%;
+}
+.right3{
+  width: 80%;
+}
+.glass3{
+  height: 500px;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.right1parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.right2parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}.right3parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+@media (max-width:1024px) {
+  .completebody{
+    height: 1366px;
+  }
+  .herobackground{
+    height: 1270px;
+    width: 100%;
+    background-image: none;
+    background-color: #7365FA;
+    border-bottom-left-radius: 10px;
+  }
+  .navbar{
+    height: 1366px;
+  }
+  h1 {
+    color: white;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .carlogo{
+    height: 124px;
+    width: 95%;
+    position: relative;
+    left:1px;
+    margin-top: 5px;
+  }
+  .swipeplate{
+    height: 70px;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 30px;
+    position: absolute;
+    bottom: -80px;
+    left: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

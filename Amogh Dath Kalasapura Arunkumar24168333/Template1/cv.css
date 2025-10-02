@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.content {
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    color: #3498db;
+}
+
+h2 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.experience-item, .education-item, .project-item {
+    margin-bottom: 20px;
+}
+
+.experience-item h3, .education-item h3, .project-item h3 {
+    margin: 0;
+}

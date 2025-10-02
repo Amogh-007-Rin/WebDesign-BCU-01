@@ -1,0 +1,358 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* STYLE FOR HOME PAGE */
+
+.maincontent {
+  height: 710px;
+  width: 98%;
+  background-color: #060608;
+  margin: 1%;
+  border-radius: 20px;
+}
+
+.turbinelogo {
+  height: 30px;
+  width: 30px;
+}
+.navbar {
+  height: 35px;
+  width: 100%;
+  background-color: #0e0e0e;
+  border: 0.5px solid #848484;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar a {
+  color: white;
+}
+
+.logoholder {
+  height: 30px;
+  width: 30px;
+}
+
+.home {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.navitems {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navitems a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+}
+.searchdiv {
+  width: 35%;
+  height: 25px;
+  display: flex;
+}
+.searchbar {
+  width: 90%;
+  background-color: transparent;
+  border: 1.5px solid #848484;
+  border-left: none;
+  border-right: none;
+  color: white;
+}
+
+.searchicon {
+  background-color: transparent;
+  width: 4%;
+  border: 1.5px solid #848484;
+  border-left: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.selectbutton {
+  background-color: transparent;
+  color: #848484;
+  border: 1.5px solid #848484;
+  width: 6%;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.animated-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 17px;
+  border: 0px solid;
+  border-color: transparent;
+  font-size: 14px;
+  background-color: inherit;
+  border-radius: 100px;
+  font-weight: 600;
+  color: greenyellow;
+  box-shadow: 0 0 0 2px greenyellow;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button svg {
+  position: absolute;
+  width: 16px;
+  fill: greenyellow;
+  z-index: 9;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .arr-1 {
+  right: 9px;
+}
+
+.animated-button .arr-2 {
+  left: -25%;
+}
+
+.animated-button .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: greenyellow;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .text {
+  position: relative;
+  z-index: 1;
+  transform: translateX(-12px);
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button:hover {
+  box-shadow: 0 0 0 12px transparent;
+  color: #212121;
+  border-radius: 12px;
+}
+
+.animated-button:hover .arr-1 {
+  right: -25%;
+}
+
+.animated-button:hover .arr-2 {
+  left: 16px;
+}
+
+.animated-button:hover .text {
+  transform: translateX(12px);
+}
+
+.animated-button:hover svg {
+  fill: #212121;
+}
+
+.animated-button:active {
+  box-shadow: 0 0 0 4px greenyellow;
+}
+
+.animated-button:hover .circle {
+  width: 220px;
+  height: 220px;
+  opacity: 1;
+}
+
+.heroimage {
+  background-image: url("../images/heroimg-v2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 674px;
+}
+.mainsection1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.herocontent1 {
+  width: 100%;
+}
+.carcompartment1 {
+  width: 21%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.carcompartment2 {
+  width: 18%;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+.carcompartment3 {
+  width: 25%;
+}
+.infodiv1 {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.container7 {
+  display: flex;
+}
+
+.leftend {
+  width: 30%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.leftlogo {
+  width: 50%;
+  margin-top: 40%;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copy {
+  font-weight: lighter;
+  font-size: 0.75rem;
+}
+
+/* media query for home page */
+
+
+@media (max-width: 600px) {
+  *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .navitems {
+    width: 150%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 95px;
+
+  }
+  .searchbar {
+    display: none;
+  }
+  .selectbutton {
+    display: none;
+  }
+  .searchicon {
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: relative;
+    right: 30px;
+  }
+  .animated-button{
+    position: relative;
+    right: 20px;
+    font-size: 8px;
+    width: 60px;
+    height: 10px;
+  }
+  .animated-button .arr-1{
+    right: 0px;
+  }
+  .animated-button svg{
+    position: absolute;
+    width: 13px;
+    fill: greenyellow;
+    z-index: 9;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+ 
+  .home{
+    display: none;
+  }
+  .turbinelogo{
+    margin-left: 15px;
+  }
+  .searchdiv {
+    width: 40%;
+    justify-content: end;
+    margin-left: 100px;
+  }
+  .navbar {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    top: -5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .heroimage {
+    height: 300px;
+  }
+  .herocontent1 {
+    position: absolute;
+    top: 280px;
+    width: 80%;
+  }
+  .infodiv1 {
+    flex-direction: column;
+    position: relative;
+    top: 380px;
+    left: 70px;
+  }
+  .carcompartment1 {
+    width: 50%;
+  }
+  .carcompartment2 {
+    width: 50%;
+  }
+  .carcompartment3 {
+    width: 80%;
+    position: relative;
+    bottom: 80px;
+    left: 15px;
+  }
+  body {
+    background-color: #060608;
+  }
+  .copyright {
+    position: absolute;
+    bottom: -500px;
+    color: white;
+    left: 80px;
+  }
+  .leftend {
+    width: 20%;
+  }
+  .leftlogo {
+    position: absolute;
+    top: 850px;
+  }
+  .copy {
+    position: relative;
+    top: 100px;
+  }
+  .footer {
+    width: 100%;
+    background-color: #212121;
+  }
+}

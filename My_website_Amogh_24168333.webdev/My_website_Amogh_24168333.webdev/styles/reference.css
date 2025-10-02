@@ -1,0 +1,399 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* STYLE FOR reference page */
+
+.maincontent {
+  height: 710px;
+  width: 98%;
+  background-color: #060608;
+  margin: 1%;
+  border-radius: 20px;
+}
+
+.turbinelogo {
+  height: 30px;
+  width: 30px;
+}
+.navbar {
+  height: 35px;
+  width: 100%;
+  background-color: #0e0e0e;
+  border: 0.5px solid #848484;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar a {
+  color: white;
+}
+
+.logoholder {
+  height: 30px;
+  width: 30px;
+}
+
+.home {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.navitems {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navitems a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+}
+.searchdiv {
+  width: 35%;
+  height: 25px;
+  display: flex;
+}
+.searchbar {
+  width: 90%;
+  background-color: transparent;
+  border: 1.5px solid #848484;
+  border-left: none;
+  border-right: none;
+  color: white;
+}
+
+.searchicon {
+  background-color: transparent;
+  width: 4%;
+  border: 1.5px solid #848484;
+  border-left: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.selectbutton {
+  background-color: transparent;
+  color: #848484;
+  border: 1.5px solid #848484;
+  width: 6%;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.animated-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 17px;
+  border: 0px solid;
+  border-color: transparent;
+  font-size: 14px;
+  background-color: inherit;
+  border-radius: 100px;
+  font-weight: 600;
+  color: greenyellow;
+  box-shadow: 0 0 0 2px greenyellow;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button svg {
+  position: absolute;
+  width: 16px;
+  fill: greenyellow;
+  z-index: 9;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .arr-1 {
+  right: 9px;
+}
+
+.animated-button .arr-2 {
+  left: -25%;
+}
+
+.animated-button .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: greenyellow;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .text {
+  position: relative;
+  z-index: 1;
+  transform: translateX(-12px);
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button:hover {
+  box-shadow: 0 0 0 12px transparent;
+  color: #212121;
+  border-radius: 12px;
+}
+
+.animated-button:hover .arr-1 {
+  right: -25%;
+}
+
+.animated-button:hover .arr-2 {
+  left: 16px;
+}
+
+.animated-button:hover .text {
+  transform: translateX(12px);
+}
+
+.animated-button:hover svg {
+  fill: #212121;
+}
+
+.animated-button:active {
+  box-shadow: 0 0 0 4px greenyellow;
+}
+
+.animated-button:hover .circle {
+  width: 220px;
+  height: 220px;
+  opacity: 1;
+}
+
+.heroimage {
+  background-image: url("../images/heroimg-v2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 674px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parentreference {
+  height: 600px;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copy {
+  font-weight: lighter;
+  font-size: 0.75rem;
+}
+.leftcompartment {
+  height: 500px;
+  width: 49%;
+  background-color: transparent;
+  border: 1px solid white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.rightcompartment {
+  height: 500px;
+  width: 49%;
+  background-color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.c1 {
+  height: 82.5px;
+  width: 100%;
+  background-color: transparent;
+  border-top: 1px solid white;
+}
+.c0 {
+  height: 82.5px;
+  width: 100%;
+  background-color: transparent;
+}
+.c1heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  color: white;
+  text-decoration: underline;
+  letter-spacing: 3px;
+}
+.pinterest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: white;
+}
+.pin1 {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  margin-left: 5px;
+}
+.rightup {
+  width: 100%;
+  height: 35px;
+}
+.work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: white;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+.rightupimgp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.righttopimg {
+  width: 70%;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.link a {
+  color: white;
+  letter-spacing: 1px;
+}
+.rightdown {
+  width: 100%;
+  height: 35px;
+  background-color: white;
+}
+.rightbottomimg {
+  width: 50%;
+}
+
+/* media query for  reference page */
+
+
+@media (max-width: 600px) {
+  .heroimage {
+    background-image: none;
+  }
+  .selectbutton {
+    display: none;
+  }
+  .searchbar {
+    display: none;
+  }
+  .searchicon {
+    display: none;
+  }
+  .animated-button {
+    display: none;
+  }
+  .abc {
+    display: none;
+  }
+  .bcc{
+    margin-right:100px;
+  }
+  .home {
+    margin-left: -80px;
+  }
+  h4 {
+    font-size: 0.5rem;
+  }
+  .parentreference {
+    height: 650px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rightcompartment {
+    height: 625px;
+  }
+  .leftcompartment {
+    height: 625px;
+  }
+  .c0 {
+    height: 90px;
+    width: 100%;
+    background-color: transparent;
+  }
+  .c1heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    color: white;
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+  }
+  .c0 {
+    height: 100px;
+  }
+  .c1 {
+    height: 100px;
+  }
+  .righttopimg {
+    width: 95%;
+    height: 100px;
+  }
+  .rightbottomimg {
+    width: 90%;
+    margin-top: 50px;
+  }
+  h4 {
+    margin-top: 30px;
+  }
+  .work {
+    margin-top: 30px;
+  }
+  .hh1 {
+    font-size: 7px;
+  }
+  .turbinelogo {
+   position: relative;
+   right: 50px;
+  }
+  .searchdiv{
+    display: none;
+  }
+}
